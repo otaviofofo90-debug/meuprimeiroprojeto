@@ -1,0 +1,95 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #d6f7d4;
+    color: #222;
+  }
+  
+  header {
+    background-color: #8ee693;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  header em {
+    display: block;
+    margin-top: 5px;
+    font-size: 16px;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: blue;
+  }
+  
+  main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  
+  .modelos h2,
+  .precos h2 {
+    color: #2eaf51;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .modelos img,
+  .dica img {
+    display: block;
+    margin: 10px auto;
+    width: 100px;
+    height: auto;
+  }
+  
+  .precos ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .precos li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f6f6f6;
+    border-left: 4px solid #2eaf51;
+  }
+  
+  .aviso {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: #8ee693;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+  }
